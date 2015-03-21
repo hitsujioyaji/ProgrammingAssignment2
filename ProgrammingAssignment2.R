@@ -20,7 +20,3 @@ cacheSolve<-function(x,...){
         x$setsolve(s)
         s
 }
-testmatrix<-matrix(1:4,2,2)
-testmatrix
-makeCacheMatrix(testmatrix)
-solve(testmatrix)
